@@ -23,16 +23,16 @@ Below functionalities has been integrated into Application:
 
 How to Run this Application:
 
-First way: 
+**First way:** 
 
 I have already deployed this Application to heroku and can be access with this URL: https://engineerai.herokuapp.com/ and already run seeds over heroku so in order to Login via admin use below credentials:
 
 Email: alpishs@yahoo.com
 password: (Please check email for password)
 
--------------------------------------------
 
-Second way:
+
+**Second way:**
 
 1. Clone the repo to your local machine: git clone https://github.com/alpishs/engineer_ai_exercise.git
 2. Now run Bundle Install (Note: Rails Version: Rails 6.0.0 & Ruby Version: ruby 2.6.2p47
