@@ -1,0 +1,24 @@
+<ul class="collapsible popout">
+  <p class="text-center form-group"><strong style="font-weight: bold;">Below Functionalities has been integrated in this Application, check Below!</strong></p>
+  <p class="text-center form-group bold">For Login or Signup click Menu Option</p>
+  <% questions_list.each_with_index do |question, index| %>
+      <li>
+        <div class="collapsible-header" style="background-color: <%= RandomColor.color_hex() %>"><a class="btn-floating pulse"><i class="material-icons" style="margin-left: 5px;">keyboard_arrow_down</i></a>
+        </div>
+        <div class="collapsible-body"><span><%= question %></span></div>
+      </li>
+  <% end %>
+</ul>
+
+<script>
+    //Below Jquery is used to create Collapsible li's
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.collapsible');
+        var instances = M.Collapsible.init(elems, options);
+    });
+
+    $(document).ready(function(){
+        $('.collapsible').collapsible();
+    });
+
+</script>
