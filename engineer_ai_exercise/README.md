@@ -19,7 +19,7 @@ Below functionalities has been integrated into Application:
 * create a role called :admin and manually in DB associate it with the admin user created manually earlier (no UI needed for this config).   
 * configure so that SecretCode page link and entire controller is only accessible to :admin role users. 
 
-
+-------------------------------------------
 
 How to Run this Application:
 
