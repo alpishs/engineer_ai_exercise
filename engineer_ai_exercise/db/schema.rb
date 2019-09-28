@@ -12,6 +12,9 @@
 
 ActiveRecord::Schema.define(version: 2019_09_27_172813) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "secret_codes", force: :cascade do |t|
     t.string "code"
     t.integer "user_id"
